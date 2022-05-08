@@ -17,7 +17,7 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Landing/>} />
-        <Route exact path="lab/:program" element={<LabElement title="aim"/>}>
+        <Route exact path="lab/:program" element={<LabElement title="aim" />}>
 
           <Route path="aim"/>
           <Route path="theory" element={<LabElement title ="theory"/>} 

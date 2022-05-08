@@ -24,7 +24,7 @@ const SideNav2 = () => {
           </svg>
           <span>Aim</span>
         </li></Link>
-        <Link to={<LabElement title ="theory"/>}>
+        <Link to="theory">
         <li className="link-design rounded">
           <svg
             xmlns="http://www.w3.org/2000/svg"

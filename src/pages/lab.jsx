@@ -9,17 +9,22 @@ import TheoryElement from "./lab-components/Theory";
 import ReferencesElement from "./lab-components/References";
 
 
-const Data = (props) => {
-    let program=useParams();
-    console.log(program)
-  if(props.title==="aim") 
-    return (<AimElement value={programs[0]} />)
-    else if(props.title=== "procedure")return (<ProcedureElement value={programs[0]} />);
-    else if(props.title=== "theory")return (<TheoryElement value={programs[0]} />);
-    else if(props.title=== "reference")return (<ReferencesElement value={programs[0]} />);
+// const Data = (element) => {
+//   return <Lab />
+// }
     
-  
+
+const Lab = (props) => {
+  let {program}=useParams();
+    console.log(program)
+    if(props==="aim") 
+    return (<AimElement value={programs.iscomment}/>)
+    else if(props=== "procedure")return (<ProcedureElement value={programs.iscomment} />);
+    else if(props=== "theory")return (<TheoryElement value={programs.iscomment} />);
+    else if(props=== "reference")return (<ReferencesElement value={programs.iscomment} />);
 }
+
+
 
 const LabElement = (props) => {
   return (
@@ -27,7 +32,7 @@ const LabElement = (props) => {
       <Navbar />
       <div style={{ display: "flex" }}>
         <SideNav2 />
-        {Data(props)}
+        {Lab(props.title)}
       </div>
     </>
   );
