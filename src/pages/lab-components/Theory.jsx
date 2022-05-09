@@ -2,7 +2,7 @@ import React from "react";
 
 
 const createTheory = (element) => {
-  return <Theory theoryTitle={element.theoryTitle} theory={element.theory} />;
+  return <Theory theoryTitle={element.title} theory={element.theory} />;
 };
 
 const Theory = (props) => {
