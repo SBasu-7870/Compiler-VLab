@@ -26,9 +26,19 @@ const Data = (props) => {
     
     else
     return (<MainFile title={program}/>);
-    
-  
+}   
+
+const Lab = (props) => {
+  let {program}=useParams();
+    console.log(program)
+    if(props==="aim") 
+    return (<AimElement value={programs.iscomment}/>)
+    else if(props=== "procedure")return (<ProcedureElement value={programs.iscomment} />);
+    else if(props=== "theory")return (<TheoryElement value={programs.iscomment} />);
+    else if(props=== "reference")return (<ReferencesElement value={programs.iscomment} />);
 }
+
+
 
 const LabElement = (props) => {
   return (
@@ -36,7 +46,7 @@ const LabElement = (props) => {
       <Navbar />
       <div style={{ display: "flex" }}>
         <SideNav2 />
-        {Data(props)}
+        {Lab(props.title)}
       </div>
     </>
   );
@@ -44,4 +54,4 @@ const LabElement = (props) => {
 
 };
 
-export default LabElement;
+export default LabElement 
