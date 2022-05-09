@@ -1,16 +1,16 @@
-import Card from '@material-tailwind/react/Card';
-import CardImage from '@material-tailwind/react/CardImage';
-import CardBody from '@material-tailwind/react/CardBody';
-import Icon from '@material-tailwind/react/Icon';
-import H4 from '@material-tailwind/react/Heading4';
-import H6 from '@material-tailwind/react/Heading6';
-import LeadText from '@material-tailwind/react/LeadText';
-import Paragraph from '@material-tailwind/react/Paragraph';
+// import Card from '@material-tailwind/react/Card';
+// import CardImage from '@material-tailwind/react/CardImage';
+// import CardBody from '@material-tailwind/react/CardBody';
+// import Icon from '@material-tailwind/react/Icon';
+// import H4 from '@material-tailwind/react/Heading4';
+// import H6 from '@material-tailwind/react/Heading6';
+// import LeadText from '@material-tailwind/react/LeadText';
+// import Paragraph from '@material-tailwind/react/Paragraph';
 import StatusCard from './StatusCard';
-import Teamwork from '../../assets/img/teamwork.jpeg';
+// import Teamwork from '../../assets/img/teamwork.jpeg';
 import programs from '../../data/programs';
 
-import TheoryElement from '../../pages/lab';
+// import TheoryElement from '../../pages/lab';
 
 export default function WorkingSection() {
     const AllPrograms =Object.keys(programs).map(r => {    

@@ -112,7 +112,7 @@ export default function DefaultFooter() {
                                         </li>
                                         <li>
                                             <a
-                                                href="#"
+                                                href="https://github.com/SBasu-7870/Compiler-VLab"
                                                 target="_blank"
                                                 rel="noreferrer"
                                                 className="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
@@ -191,7 +191,7 @@ export default function DefaultFooter() {
                                     href="#"
                                     className="text-gray-700 hover:text-gray-900 transition-all"
                                 >
-                                   Shravan Seth
+                                   IEM
                                 </a>
                                 .
                             </div>

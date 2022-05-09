@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Navbar from '../../components/Navbar';
-import '../Program Component/Simulation.css'
-import SideNav2 from '../SideNav2';
+
 
 const ParseTree = () => {
   const [generated, setGenerated] = useState(false);
@@ -12,19 +10,19 @@ const ParseTree = () => {
 
   const images = [
     {
-      uri: require("../../assets/parse-tree1.png"),
+      uri: require("../../assets/img/parse-tree1.png"),
     },
     {
-      uri: require("../../assets/parse-tree2.png"),
+      uri: require("../../assets/img/parse-tree2.png"),
     },
     {
-      uri: require("../../assets/parse-tree3.png"),
+      uri: require("../../assets/img/parse-tree3.png"),
     },
     {
-      uri: require("../../assets/parse-tree4.png"),
+      uri: require("../../assets/img/parse-tree4.png"),
     },
     {
-      uri: require("../../assets/parse-tree5.png"),
+      uri: require("../../assets/img/parse-tree5.png"),
     },
   ];
 
@@ -46,9 +44,7 @@ const ParseTree = () => {
 
   return (
     <>
-      <Navbar />
-      <div className="simulation">
-        <SideNav2 />
+      <div className="simulation ml-10">
         <div
           className="container"
           style={{ padding: "1rem", justifyContent: "center" }}

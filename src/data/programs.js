@@ -32,21 +32,22 @@ export const programs = {
     },
     operator: {
         link: 'operator',
-        aim: 'Write a C program to simulate lexical analyzer for validating operators.',
+        aim: 'The aim of this program is to design a lexical analyzer that checks if a given operator is valid or not.',
         programName: 'Valid operator',
         title: 'Valid operator',
         description: 'Read the given input.If the given input matches with any operator symbol. Then display in terms of words of the particular symbol.Else print not a operator.',
-        theory: "Read the given input.If the given input matches with any operator symbol. Then display in terms of words of the particular symbol.Else print not a operator.",
+        theory: "Operators as symbols that help us to perform specific mathematical and logical computations on operands. Any and all symbols cannot be considered as operators. There is a set of symbols that can be considered as operators by the compiler. This program helps to recognize those symbols.",
         procedure: "Read the given input.If the given input matches with any operator symbol. Then display in terms of words of the particular symbol.Else print not a operator.",
+        reference: "•	GeeksForGeeks"
     },
     parsetree: {
         link: 'parsetree',
-        aim: 'Write a C program for constructing of LL (1) parsing.',
-        programName: 'LL1 Parser',
-        title: 'LL1 Parser',
-        description: 'Read the input string.Using predictive parsing table parse the given input using stack .       If stack [i] matches with token input string pop the token else shift it repeat the process until it reaches to $.',
-        theory: "Read the input string.Using predictive parsing table parse the given input using stack .       If stack [i] matches with token input string pop the token else shift it repeat the process until it reaches to $.",
-        procedure: "Read the input string.Using predictive parsing table parse the given input using stack .       If stack [i] matches with token input string pop the token else shift it repeat the process until it reaches to $.",
+        aim: 'Write a C program to demonstrate the process of Parse Tree generation',
+        programName: 'Parse Tree Generator',
+        title: 'Parse Tree Generator',
+        description: ' A parse tree is an ordered tree in which nodes are labeled with the left side of the productions and in which the children of a node define its equivalent right parse tree also known as syntax tree, generation tree, or production tree.',
+        theory: "The parser is the phase of the compiler which takes a token string as input and with the help of existing grammar, converts it into the corresponding Intermediate Representation. The parser is also known as Syntax Analyzer. During syntax analysis, the expression is converted into a parse tree. Parse tree is a hierarchical structure which represents the derivation of the grammar to yield input strings. Parse trees are an in-memory representation of the input with a structure that conforms to the grammar. The advantages of using parse trees is that the parser can make multiple passes over the data without having to re-parse the input.",
+        procedure: "A parser generator takes a grammar as input and automatically generates source code that can parse streams of characters using the grammar.\n The generated code is a parser, which takes a sequence of characters and tries to match the sequence against the grammar. \n The parser typically produces a parse tree, which shows how grammar productions are expanded into a sentence that matches the character sequence.\n  The root of the parse tree is the starting nonterminal of the grammar.\n  Each node of the parse tree expands into one production of the grammar.",
     },
 
 

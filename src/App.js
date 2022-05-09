@@ -26,7 +26,7 @@ function App() {
           />
           <Route path="simulation" element={<LabElement title ="simulation"/>}         
           />
-          <Route path="references" element={<LabElement title ="references"/>}         
+          <Route path="references" element={<LabElement title ="reference"/>}         
           />
         </Route>,
         {/* <Route path="/sim1" element={<Simulation />} />,
